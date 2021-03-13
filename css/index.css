@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+}
+
+html {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    background-image: url(images/bg-desktop.png);
+    background-color: var(--Very-Dark-Blue);
+}
