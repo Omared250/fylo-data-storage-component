@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/*----general setup------*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +19,26 @@ html {
     font-size: 14px;
     font-weight: 700;
     font-family: Raleway, sans-serif;
-    background-image: url(images/bg-desktop.png);
     background-color: var(--Very-Dark-Blue);
 }
+
+/*-----image setup-----*/
+
+#image-desktop {
+    margin-top: 10.1%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#image-mobile {
+    display: none;
+}
+
+/*------boxes icons setup-------*/
+
+#box-icons {
+    width: 500px;
+    background-color: var(--Dark-Blue);
+}
+
