@@ -49,6 +49,13 @@ html {
     background-color: var(--Dark-Blue);
 }
 
+@media(max-width: 1200px) {
+    #box-icons {
+        top: 25%;
+        left: 30%;
+    }
+}
+
 #logo {
     margin: 35px 0px 0px 30px;
 }
@@ -78,6 +85,13 @@ html {
     background-color: var(--Dark-Blue);
 }
 
+@media(max-width: 1200px) {
+    #box-information {
+        top: 60%;
+        left: 30%;
+    }
+}
+
 #advice {
     position: absolute;
     display: flex;
@@ -89,6 +103,11 @@ html {
     background-color: white;
 }
 
+@media(max-width: 1200px) {
+    #advice {
+        left: 65%;
+    }
+}
 
 #advice::after {
     content: "";
