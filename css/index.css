@@ -16,6 +16,7 @@
 }
 
 html {
+    height: 100vh;
     font-size: 14px;
     font-weight: 700;
     font-family: Raleway, sans-serif;
@@ -25,9 +26,9 @@ html {
 /*-----image setup-----*/
 
 #image-desktop {
-    margin-top: 10.1%;
+    margin-top: 51vh;
     width: 100%;
-    height: auto;
+    height: 49vh;
     max-width: 100%;
 }
 
@@ -35,10 +36,133 @@ html {
     display: none;
 }
 
-/*------boxes icons setup-------*/
+/*------box icons setup-------*/
 
 #box-icons {
-    width: 500px;
+    position: absolute;
+    top: 36%;
+    left: 16%;
+    width: 300px;
+    height: 180px;
+    border-radius: 7px;
+    border-top-right-radius: 90px;
     background-color: var(--Dark-Blue);
 }
+
+#logo {
+    margin: 35px 0px 0px 30px;
+}
+
+.icons {
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    margin: 20px 0px 0px 10px;
+    border-radius: 10px;
+    background-color: var(--Very-Dark-Blue);
+}
+
+#firts-icon {
+    margin-left: 30px;
+}
+
+/*----box information setup-----*/
+
+#box-information {
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    width: 480px;
+    height: 140px;
+    border-radius: 8px;
+    background-color: var(--Dark-Blue);
+}
+
+#advice {
+    position: absolute;
+    display: flex;
+    top: -40px;
+    left: 300px;
+    width: 150px;
+    height: 80px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: white;
+}
+
+
+#advice::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 130px;
+    height: 20px;
+    border-bottom: 20px solid var(--Dark-Blue);
+    border-right: 20px solid transparent;
+}
+
+#advice .p1 {
+    margin: 15px 10px 20px 20px;
+    font-size: 25px;
+}
+
+#advice .p2 {
+    margin: 27px 0px 20px 0px;
+    color: var(--Grayish-Blue);
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/*-----progress area setup----*/
+
+label {
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+    font-weight: 400;
+    color: var(--Pale-Blue);
+}
+
+progress[value] {
+    width: 420px;
+    height: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    margin: 56px 0px 0px 30px;
+    padding-top: 2.7px;
+    padding-left: 2px;
+    background-color: var(--Very-Dark-Blue); 
+    border-radius: 50px;   
+}
+
+progress[value]::-webkit-progress-value {
+    background: -webkit-linear-gradient(-45deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 11px;
+    border-radius: 50px;
+}
+
+progress[value]::after {
+    content: "";
+    position: absolute;
+    top: 42.2%;
+    left: 69.7%;
+    width: 10px;
+    height: 10.5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#progress-area .p1 {
+    margin: 65px 0px 0px 30px;
+    color: var(--Pale-Blue);
+}
+
+#progress-area .p2 {
+    margin: -15px 0px 0px 395px;
+    color: var(--Pale-Blue);
+}
+
+
 
